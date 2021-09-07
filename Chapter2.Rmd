@@ -1,6 +1,9 @@
 ---
 title: "Chapter 2"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
 ---
 
 # Chapter 2 R basics
