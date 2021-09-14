@@ -71,7 +71,7 @@ Although not immediately obvious, as you go through the book you will start to a
   d. co2 is not tidy: to be tidy we would have to wrangle it to have three columns (year, month and value), then each co2 observation would have a row.
 
 ```{r}
-co2
+head(co2)
 
 # d. co2 is not tidy: to be tidy we would have to wrangle it to have three columns (year, month and value), then each co2 observation would have a row.
 ```
@@ -84,7 +84,7 @@ co2
   d. ChickWeight is tidy: it is stored in a data frame.
 
 ```{r}
-print.data.frame(ChickWeight)
+print.data.frame(head(ChickWeight))
 
 # b. ChickWeight is tidy: each observation (a weight) is represented by one row. The chick from which this measurement came is one of the variables.
 ```
@@ -112,23 +112,21 @@ print.data.frame(BOD)
   f. UCBAdmissions
 
 ```{r}
-BJsales
+head(BJsales)
 
-EuStockMarkets
+head(EuStockMarkets)
 
-print.data.frame(DNase)
+print.data.frame(head(DNase))
 
 print.data.frame(Formaldehyde)
 
-print.data.frame(Orange)
+print.data.frame(head(Orange))
 
-UCBAdmissions
+head(UCBAdmissions)
 
-# b. EuStockMarkets
 # c. DNase
 # d. Formaldehyde
 # e. Orange
-# f. UCBAdmissions
 ```
 
 
